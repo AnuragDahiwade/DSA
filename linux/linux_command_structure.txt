@@ -1,0 +1,7 @@
+
+* command = command_name + options + arguments
+* options are case sensitive
+* options can be combined
+* option short form: cat -n abc.txt
+* option long form: cat --number abc.txt
+

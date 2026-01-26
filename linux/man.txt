@@ -1,0 +1,18 @@
+this is man command
+it displays manual pages of different commands
+
+man - to get manual pages for any command
+
+ex . > man command_name
+> man cat
+
+
+cp [OPTION]... [-T] SOURCE DEST
+cp [OPTION]... SOURCE... DIRECTORY
+cp [OPTION]... -t DIRECTORY SOURCE...
+
+* if anything int square bracket[] then it is optional
+* ... -> means you can write multiple files, options, etc.
+
+
+
