@@ -1,4 +1,4 @@
-package main
+package tree
 
 // Build from the preOrder sequence ********
 func buildBinaryTree(arr []int) *TreeNode {

@@ -6,7 +6,7 @@
  *     Right *TreeNode
  * }
  */
-package main
+package tree
 
 import "slices"
 

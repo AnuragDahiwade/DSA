@@ -1,4 +1,4 @@
-package main
+package tree
 
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	return rootLR(root, p, q)

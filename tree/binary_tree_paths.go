@@ -8,7 +8,7 @@
  */
 
 // LEETCODE : 257 - binary tree paths
-package main
+package tree
 
 import "strconv"
 
