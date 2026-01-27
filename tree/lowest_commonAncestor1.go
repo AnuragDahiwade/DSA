@@ -1,0 +1,29 @@
+package main
+
+func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+	return rootLR(root, p, q)
+}
+
+func rootLR(root, p, q *TreeNode) *TreeNode {
+	if root == nil {
+		return nil
+	}
+
+	if root == p || root == q {
+		return root
+	}
+
+	l := rootLR(root.Left, p, q)
+	r := rootLR(root.Right, p, q)
+
+	if l != nil && r != nil {
+		return root
+	}
+	if l != nil {
+		return l
+	}
+	if r != nil {
+		return r
+	}
+	return nil
+}
